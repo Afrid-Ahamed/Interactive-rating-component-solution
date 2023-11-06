@@ -36,8 +36,8 @@ Mobile design
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/interactive-rating-component-8azleF6AhF)
+- Live Site URL: [Click here](https://afrid-ahamed.github.io/Interactive-rating-component-solution/)
 
 ## My process
 
@@ -54,5 +54,5 @@ Mobile design
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [Afrid-Ahamed](https://www.frontendmentor.io/profile/Afrid-Ahamed)
+- Twitter - [Afrid04](https://twitter.com/Afrid04)
