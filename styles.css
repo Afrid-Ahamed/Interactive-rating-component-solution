@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Hanken+Grotesk&family=Lexend+Deca:wght@200;400&family=Overpass&family=Poppins:wght@400;600;700&family=Quicksand&display=swap");
+
+/*************** Common sections start ***************/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass";
+}
+
+/*************** Common sections end ***************/
+
+/*************** Rating card setcion styles start ***************/
+.card-rating {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.star {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 25%);
+  border-radius: 50%;
+}
+
+.star img {
+  padding: 13px;
+}
+
+.card-rating h1 {
+  margin: 0;
+  margin-top: 30px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-rating p {
+  margin: 0;
+  margin-top: 10px;
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.ratings {
+  margin: 15px 0;
+}
+
+.ratings ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ratings ul div a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 25%);
+  border-radius: 50%;
+  cursor: pointer;
+  color: hsl(217, 12%, 63%);
+  text-decoration: none;
+}
+
+.submit button {
+  font-family: "Overpass";
+  letter-spacing: 1px;
+  font-size: 16px;
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* When active */
+.ratings ul div a.active {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* Pseudo states */
+.ratings ul div a:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.submit button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+/*************** Rating card setcion styles end ***************/
+
+/*************** Thank you card setcion styles start ***************/
+.card-thankyou {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.card-thankyou img {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 17px;
+}
+
+.selected-text {
+  margin: 0;
+}
+
+.selected-text p {
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  background-color: hsl(216, 12%, 25%);
+  border-radius: 30px;
+  font-size: 15px;
+  color: hsl(25, 97%, 53%);
+}
+
+.card-thankyou h2 {
+  margin: 0;
+  margin-top: 35px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: hsl(0, 0%, 100%);
+}
+
+.appreciate p {
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+
+  /*************** Thank you card setcion styles end ***************/
+
+  /* Attribution section */
+  .attribution {
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+  }
+  .attribution a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 410px) {
+  /* For Rating section */
+  .card-rating {
+    width: 270px;
+    padding: 25px;
+  }
+
+  .star {
+    width: 40px;
+    height: 40px;
+  }
+
+  .star img {
+    text-align: center;
+  }
+
+  .card-rating h1 {
+    font-size: 28px;
+  }
+
+  .card-rating p {
+    font-size: 13px;
+  }
+
+  .ratings {
+    margin-bottom: 10px;
+  }
+
+  .ratings ul div a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .submit button {
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+
+  /* For thank you section */
+  .card-thankyou {
+    width: 270px;
+    padding: 25px;
+  }
+
+  .card-thankyou img {
+    width: 140px;
+  }
+
+  .selected-text {
+    margin: 0;
+  }
+
+  .selected-text p {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .card-thankyou h2 {
+    margin: 0;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .appreciate p {
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    font-size: 13px;
+  }
+}
